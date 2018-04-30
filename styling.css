@@ -1,0 +1,49 @@
+.topQuestionsDiv
+{
+	border: 1px solid gray;
+	 height: 300px;
+	 width: 700px; 
+	 position: 	 absolute; 
+	 top:600px
+}
+
+.topMemberDiv
+{
+	border: 1px solid gray;
+	 height: 300px;
+	 width: 700px; 
+	 position: 	 absolute; 
+	 top:600px;
+	 left: 1400px;
+}
+
+.memberContent
+{
+	position: relative;
+	left: 10px;
+	top: 3px;
+}
+
+.memberDiv
+{
+	border: 1px solid gray; height: 60px;width: 699px ; position: relative;
+
+	display: inline-block;
+}
+
+.questionLink
+{
+	color: black; text-decoration: none; position: relative; top: 10px; left: 10px;
+}
+
+.questionDiv
+{
+	border: 1px solid gray; height: 60px;width: 699px ; position: relative;
+	left: 1px;
+	display: inline-block;
+}
+
+.mblue
+{
+	color:#3E7BBB;
+}

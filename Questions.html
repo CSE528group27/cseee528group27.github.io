@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Stylesheet Docs -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="styling.css">
+
+    <!-- Javascript Docs -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+
+
+
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+    
+    
+
+
+
+    <!-- <script type="text/javascript" src="https://d3js.org/d3.v3.js"></script> -->
+    <script type="text/javascript" src="line_chart.js"></script>
+
+
+</head>
+<body onload="showTopQuestions('Acne')">
+<br>
+<center><h5 style="color:#ff7d16; font-weight:bold">Top Questions:</h5></center>
+	<img  id="goback" height="28" width="28" src="back.png" onclick="showMainQuestions();" style="display:none;position:absolute; top:0px;left:0px;"/>
+
+
+
+	
+
+    <div id="topQuestions" class="card-body"  style="text-align: left;" onload="showTopQuestions('Acne')"> 
+    </div>
+
+<br>  
+
+</body>
+
+</html>
